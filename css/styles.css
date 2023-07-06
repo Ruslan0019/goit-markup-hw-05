@@ -722,7 +722,7 @@ address {
 }
 .form-btn {
   display: flex;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   min-width: 165px;
