@@ -871,10 +871,10 @@ address {
   opacity: 0;
   transform: scale(0);
   transition: 150ms opacity var(--anim);
-} */
+}
 .modal-form-link {
   color: #4d5ae5;
-}
+} */
 
 /* .modal-container-text {
   font-size: 12px;
@@ -906,3 +906,10 @@ address {
   opacity: 1;
   transform: scale(1);
 } */
+.modal-form-checkbox:checked
+  + .modal-container-text
+  > .modal-form-custom-checkbox {
+  background-color: var(--iris-color);
+  border: none;
+  fill: var(--cloud-color);
+}
